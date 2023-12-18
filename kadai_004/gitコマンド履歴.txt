@@ -1,0 +1,36 @@
+PS C:\Users\karas\Desktop\git_kadai> mkdir git_challenge      
+
+
+    ディレクトリ: C:\Users\karas\Desktop\git_kadai
+
+
+Mode                 LastWriteTime         Length Name        
+----                 -------------         ------ ----        
+d-----        2023/12/18     16:31                git_challeng
+                                                  e
+
+
+PS C:\Users\karas\Desktop\git_kadai> cd git_challenge
+PS C:\Users\karas\Desktop\git_kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/karas/Desktop/git_kadai/git_challenge/.git/
+PS C:\Users\karas\Desktop\git_kadai\git_challenge> git add hello_world.txt
+PS C:\Users\karas\Desktop\git_kadai\git_challenge> git commit -m "コミット"
+[main (root-commit) 069cbdd] コミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\karas\Desktop\git_kadai\git_challenge> git add .   
+PS C:\Users\karas\Desktop\git_kadai\git_challenge> git commit -m "日本語訳を追記"
+[main 3ef3d06] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\karas\Desktop\git_kadai\git_challenge> git log     
+commit 3ef3d0607436ab7bbfa120c4238a855dc30ef4a7 (HEAD -> main) 
+Author: crow-clover <hq0507@icloud.com>
+Date:   Mon Dec 18 17:14:29 2023 +0900
+
+    日本語訳を追記
+
+commit cf93353be3d337a901516b5a98a82a12a6fee111
+Author: crow-clover <hq0507@icloud.com>
+Date:   Mon Dec 18 16:59:10 2023 +0900
+
+    コミット
